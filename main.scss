@@ -1,0 +1,15 @@
+$theme-colors: (
+  "primary":    #1AC1D3,
+  "success":    #83C489,
+  "danger":     #DA3F2F,
+  "warning":    #F2C36D,
+  "light":      #F6F6F6,
+  "dark":       #363636
+);
+
+
+$font-family-base: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+$font-family-monospace: Roboto-mono, Monaco, Consolas, monospace;
+
+/* all bootstrap variables to be loaded in the end */
+@import "node_modules/bootstrap/scss/bootstrap";
