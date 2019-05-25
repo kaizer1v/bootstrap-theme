@@ -1,7 +1,6 @@
-# CivicDataLab Design System
+# Bootstrap Theme
 
-This is in addition to the high fidelity designs and sketches being worked upon.
-
+An experiment to build a bootstrap 4.0 theme
 
 ## Installation
 

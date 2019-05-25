@@ -1,8 +1,8 @@
-section h2 {
+section > h2 {
   border-top: 2px solid #eee;
   padding: 10px 0;
 }
-section .component { margin-bottom: 50px; }
+section .component { margin: 50px 0; }
 
 .sidenav {
   height: 100%;
