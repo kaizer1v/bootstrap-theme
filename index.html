@@ -6,19 +6,35 @@
   <!-- CSS for this page -->
   <link rel="stylesheet" type="text/css" href="assets/platform/platform.css" />
 
-  <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> -->
+  <!-- Custom Theme - includes bootstrap -->
   <link rel="stylesheet" type="text/css" href="main.css">
+
+  <!-- External Libraries -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-abap.js">
 </head>
 <body>
 
   <div class="container-fluid">
 
     <!-- Sidebar Menu -->
-    <div class="sidenav"><!-- generated from javascript --></div>    
+    <div class="sidenav"><!-- generated from javascript --></div>
     
     <!-- Right Content -->
     <div class="main">
+
+      <pre><code class="language-css">
+        body {
+          font: 100% Helvetica, sans-serif;
+          color: #333;
+        }
+
+        .box {
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          border-radius: 10px;
+        }
+      </code></pre>
 
       <!-- Colours -->
       <section>
@@ -127,7 +143,6 @@
           </div>
 
         </div>
-
       </section>
 
       <!-- Typography -->
@@ -612,24 +627,16 @@
 
 
 <!-- JQuery & Bootstrap -->
-<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!-- Additional Libraries -->
 <script src="node_modules/holderjs/holder.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 
-<!-- Javascript for this page -->
-<script type="text/javascript">
-  $('.component').find('a, .btn').on('click', function(e) { e.preventDefault() });
+<!-- Javscript for this page -->
+<script src="assets/platform/platform.js"></script>
 
-  // Generate left navigation menu
-  (function generateNavLinks() {
-    let navlinks = [];
-    $('section h2').each(function(k, v) {
-      navlinks.push(`<a href="#${ $(v).attr('id') }">${ $(v).text() }</a>`)
-    })
-    $('.sidenav').html(navlinks.join(''))
-  })()
 </script>
 </body>
 </html>
