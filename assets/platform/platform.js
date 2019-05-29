@@ -6,5 +6,5 @@ $('.component').find('a, .btn').on('click', function(e) { e.preventDefault() });
   $('section h2').each(function(k, v) {
     navlinks.push(`<a href="#${ $(v).attr('id') }">${ $(v).text() }</a>`)
   })
-  $('.sidenav').html(navlinks.join(''))
+  $('.sidenav').append(navlinks.join(''))
 })()

@@ -10,31 +10,23 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 
   <!-- External Libraries -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-abap.js">
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/components/prism-abap.js"> -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
 </head>
 <body>
 
   <div class="container-fluid">
 
     <!-- Sidebar Menu -->
-    <div class="sidenav"><!-- generated from javascript --></div>
+    <div class="sidenav">
+      <a href="index.html">Main</a>
+      <a href="adv-components.html">Advanced Components</a>
+      <hr />
+      <!-- generated from javascript -->    
+    </div>
     
     <!-- Right Content -->
     <div class="main">
-
-      <pre><code class="language-css">
-        body {
-          font: 100% Helvetica, sans-serif;
-          color: #333;
-        }
-
-        .box {
-          -webkit-border-radius: 10px;
-          -moz-border-radius: 10px;
-          -ms-border-radius: 10px;
-          border-radius: 10px;
-        }
-      </code></pre>
 
       <!-- Colours -->
       <section>
@@ -632,11 +624,15 @@
 
 <!-- Additional Libraries -->
 <script src="node_modules/holderjs/holder.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
 
 <!-- Javscript for this page -->
 <script src="assets/platform/platform.js"></script>
 
+<script type="text/javascript">
+  // Initialise Syntax Highlighting
+  hljs.initHighlightingOnLoad();
 </script>
 </body>
 </html>
