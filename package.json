@@ -4,18 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "sass": "./node_modules/.bin/node-sass --include-path main.scss main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "highlight.js": "^9.15.6",
     "holderjs": "^2.9.6",
     "jquery": "^3.4.1"
-  },
-  "scripts": {
-    "sass": "./node_modules/.bin/node-sass --include-path main.scss main.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
